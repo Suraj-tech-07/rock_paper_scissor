@@ -1,0 +1,65 @@
+* {
+    overflow: hidden;
+}
+
+body {
+    height: 96vh;
+    width: 97vw;
+    background: url('girl-6058990_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main .heading {
+    display: flex;
+    font-size: 3rem;
+    font-family: algerian;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    opacity: 0.8;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+}
+
+.main .gameBody {
+    height: 80vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: rgb(221 212 212 / 5%);
+    backdrop-filter: blur(15px);
+}
+
+.main .gameBody .user {
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .gameBody .system {
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.main .gameBody .user img {
+    height: 176px;
+    width: 173px;
+}
